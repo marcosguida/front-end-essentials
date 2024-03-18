@@ -1,0 +1,25 @@
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+	display:inline;
+	margin:10px;
+	
+}
+li a{
+	background:#AE4478;
+	text-decoration:none;
+	color:#FFF;
+	padding:5px 10px;
+	border-radius:5px;
+	
+}
+li a:hover{
+	background:red;
+	color:blue;
+	border-color:blue;
+	
+	
+}
