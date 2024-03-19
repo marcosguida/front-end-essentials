@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta do Formulário</title>
+</head>
+<body>
+    <h2>Nome: </h2>
+    <p id="nome"></p>
+
+    <h2>Sobrenome: </h2>
+    <p id="sobrenome"></p>
+
+    <h2>Email: </h2>
+    <p id="email"></p>
+
+    <h1>Sexo: </h1>
+    <p id="sexo"></p>
+
+    <script>
+        const nome = localStorage.getItem('nome');
+        const sobrenome = localStorage.getItem('sobrenome');
+        const email = localStorage.getItem('email');
+        const sexo = localStorage.getItem('sexo');
+
+        document.getElementById('nome').textContent = nome;
+        document.getElementById('sobrenome').textContent = sobrenome;
+        document.getElementById('email').textContent = email;
+        document.getElementById('sexo').textContent = sexo;
+    </script>
+</body>
+</html>
