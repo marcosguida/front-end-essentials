@@ -45,28 +45,6 @@
                 <label>Feminino </label><input type="radio" value="Feminino" name="sexo" placeholder="Feminino">
             </div>
 
-
-        <script>
-            const formulario = document.getElementById('forms-marcos');
-            
-            formulario.addEventListener('submit', (event) => {
-                event.preventDefault();
-            
-                const nome = event.target.nome.value;
-                const sobrenome = event.target.sobrenome.value;
-                const email = event.target.email.value;
-                const sexo = event.target.sexo.value;
-            
-                localStorage.setItem('nome', nome);
-                localStorage.setItem('sobrenome', sobrenome);
-                localStorage.setItem('email', email);
-                localStorage.setItem('sexo', sexo);
-            
-                window.location.href = 'dados-forms.html';
-            });
-            </script>
-
-
             <div>
                 <select name="select" id="">
                     <option value="pfisica">CPF</option>
@@ -93,6 +71,47 @@
                     <label for="videos">Vídeos</label>
                 </div>
             </fieldset>
+
+            <div>
+                <br>
+                <label for="cidade">Campo obrigatório</label>
+                <br>
+
+                <select name="cidade" required="required">
+
+                    <option>Selecione sua cidade de residência</option>
+                    <option value="Palmas">Palmas</option>
+                    <option value="Araguina">Araguína</option>
+                    <option value="Gurupi">Gurupi</option>
+                    <option value="Porto_Nacional">Porto Nacional</option>
+                    <option value="Dianopolis">Dianopólis</option>
+                    <option value="Paraiso">Paraíso</option>
+
+                </select>
+            </div>
+            <br>
+
+            <script>
+                const formulario = document.getElementById('forms-marcos');
+                
+                formulario.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                
+                    const nome = event.target.nome.value;
+                    const sobrenome = event.target.sobrenome.value;
+                    const email = event.target.email.value;
+                    const sexo = event.target.sexo.value;
+                
+                    localStorage.setItem('nome', nome);
+                    localStorage.setItem('sobrenome', sobrenome);
+                    localStorage.setItem('email', email);
+                    localStorage.setItem('sexo', sexo);
+                    
+                
+                    window.location.href = 'dados-forms.html';
+                });
+            </script>
+                
             <input type="submit" value="Cadastrar">
             <input type="reset" value="Limpar tudo">
         </form>
