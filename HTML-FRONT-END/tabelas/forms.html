@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Unitins - Universidade Estadual do Tocantins</title>
+</head>
+
+<body>
+    <header>
+        <h1>UNITINS</h1>
+    </header>
+    <hr>
+    <main>
+        <img src="../imagens/banner.jpeg" alt="banner" width="100%">
+    </main>
+    <section>
+        <h1>Parceria</h1>
+        <figure>
+            <img src="../imagens/casi.png" alt="" width="100px">
+            <figcaption>Centro acadêmico de sistemas de informação</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <table border="1">
+            <caption>
+                Inscrições
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col" bgcolor="#FFEC1">Período</th>
+                    <th scope="col" bgcolor="#FFEC1">Editais</th>
+                    <th scope="col" bgcolor="#FFEC1">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">01/02/2024</th>
+                    <td>Pesquisa</td>
+                    <td bgcolor="Lime">Fechado</td>
+                </tr>
+                <tr>
+                    <th scope="row">02/03/2024-02/06/2024</th>
+                    <td>Extensão</td>
+                    <td bgcolor="Tomato">Em andamento</td>
+                </tr>
+                <tr>
+                    <th scope="row">05/07/2024 - 05/12/2024</th>
+                    <td>Bolsas</td>
+                    <td bgcolor="#B0E0E6">Aguardando</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h1>Formulário de inscrição</h1>
+        <form action="texto.html" method="post" target="_blank" id="forms-marcos">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Seu nome"/>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" placeholder="Seu sobrenome">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Seu email">
+                <br>
+            </div>
+            <div>
+                <label for="sexo"> <b>Sexo: </b></label>
+                <br>
+                <label>Masculino </label><input type="radio" value="Masculino" name="sexo" placeholder="Masculino">
+                <label>Feminino </label><input type="radio" value="Feminino" name="sexo" placeholder="Feminino">
+            </div>
+
+            <div>
+                <select name="select" id="">
+                    <option value="pfisica">CPF</option>
+                    <option value="pjuridica">CNPJ</option>
+                </select>
+            </div>
+            <div>
+                <label for="login">Login</label>
+                <input type="text" name="login">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha">
+            </div>
+            <fieldset>
+                <legend>Escolha seus interesses</legend>
+                <div>
+                    <input type="checkbox" id="filmes" name="filmes" checked />
+                    <label for="filmes">Filmes</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="videos" name="videos" />
+                    <label for="videos">Vídeos</label>
+                </div>
+            </fieldset>
+
+            <div>
+                <br>
+                <label for="cidade">Campo obrigatório</label>
+                <br>
+
+                <select name="cidade" required="required">
+
+                    <option>Selecione sua cidade de residência</option>
+                    <option value="Palmas">Palmas</option>
+                    <option value="Araguina">Araguína</option>
+                    <option value="Gurupi">Gurupi</option>
+                    <option value="Porto_Nacional">Porto Nacional</option>
+                    <option value="Dianopolis">Dianopólis</option>
+                    <option value="Paraiso">Paraíso</option>
+
+                </select>
+            </div>
+            <br>
+                
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar tudo">
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Marcos Ribeiro</p>
+    </footer>
+</body>
+
+</html>
