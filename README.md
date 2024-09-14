@@ -13,3 +13,19 @@ A disciplina tem o objetivo de desenvolver uma compreensão fundamental dos prin
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+## Projeto
+  <table>
+    <thead align="center">
+    </thead>
+    <tbody>
+      <tr>
+      	<td>
+		<a href="https://github.com/marcosguida/AMAGRON-Store">
+		<b>AMAGRON Store</b></a>
+	</td>
+      	<td>
+		<a href="https://github.com/marcosguida/AMAGRON-Store">
+		<img src="https://github-readme-stats.vercel.app/api/pin/?username=marcosguida&repo=AMAGRON-Store&icon_color=79ff97&text_color=9f9f9f&bg_color=151515"/>
+	</td>
+
+
