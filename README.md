@@ -1,6 +1,7 @@
 # Disciplina de Desenvolvimento Front-end - UNITINS
 
 Este é o meu repositório para a disciplina de Desenvolvimento Front-end, no primeiro período, do curso de Sistemas de Informação da Universidade do Norte do Tocantins (UNITINS).
+2024.01
 
 ## Descrição da disciplina
 
